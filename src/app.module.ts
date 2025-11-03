@@ -5,7 +5,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 
 import { ApplicationModule } from './application/application.module';
 import { PresentationModule } from './presentation/presentation.module';
-import { getTypeOrmConfig } from './database-config/typeorm.config';
+import { getTypeOrmConfig } from './infra/database-config/typeorm.config';
 import { InfrastructureModule } from './infra/infra.module';
 
 @Module({
